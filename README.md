@@ -31,8 +31,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone <repo_url>
-   cd <repo_folder>
+   git clone https://github.com/codder077/ride-hailing.git
+   cd ride-hailing
    ```
 2. Install dependencies:
    ```sh
@@ -40,7 +40,7 @@ Ensure you have the following installed:
    ```
 3. Create a `.env` file and configure MongoDB:
    ```env
-   MONGODB_TEST_URI=mongodb://localhost:27017/cab_booking_test
+   MONGODB_TEST_URI=Mongo url
    JWT_SECRET=your_secret_key
    ```
 4. Start the server:
